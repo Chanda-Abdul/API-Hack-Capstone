@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #371d0d;
+}
+
+main {
+  border: 2em #db1f2d solid;
+  border-radius: 0%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #db1f2d;
+  border: 0.25em #db1f2d solid;
+  border-radius: 0%;
+}
+
+.outerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  background-color: #0f3d59;
+  border: 0.1em #371d0d solid;
+  border-radius: 2%;
+}
+
+.altBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  padding: 2em;
+  border: 0.1em #371d0d solid;
+  background-color: #f2f2f2;
+  color: #0f3d59;
+  border-radius: 2%;
+}
+
+.dinnerMovie {
+  margin-bottom: 0.5em;
+  width: 60%;
+  width: 450px;
+}
+
+.images {
+  width: 1.5 em;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0.1em #371d0d solid;
+  background-color: #f2811d;
+  color: #371d0d;
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 3%;
+}
+
+button:hover,
+button:active {
+  background-color: #f22929;
+  color: #f2f2f2;
+  border: 0.1em #371d0d solid;
+}
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border: 0.1em #bf212e solid;
+  background-color: white;
+  color: #371d0d;
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 3%;
+}
+
+@media only screen and (min-width: 320px) {
+  .dinnerMovie {
+    width: 15em;
+  }
+
+  .outerBox {
+    border-radius: 0%;
+    padding: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .altBox {
+    width: 14em;
+    border-radius: 0%;
+  }
+
+  .button {
+    margin-top: 0.25em;
+    font-size: 0.75em;
+  }
+
+  .sizeMe {
+    font-size: 0.9em;
+  }
+
+  .image,
+  .video {
+    width: 12em;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .dinnerMovie {
+    width: 25em;
+  }
+
+  .outerBox {
+    border-radius: 2%;
+    padding: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  .altBox {
+    border-radius: 2%;
+    width: 20em;
+  }
+
+  .button {
+    margin-top: 0.25em;
+    font-size: 0.75em;
+  }
+
+  .sizeMe {
+    font-size: 0.9em;
+  }
+
+  .image,
+  .video {
+    width: 17em;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .dinnerMovie {
+    width: 40em;
+  }
+
+  .outerBox {
+    border-radius: 2%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .altBox {
+    border-radius: 2%;
+    width: 60em;
+  }
+
+  .button {
+    margin-top: 0.25em;
+    font-size: 0.75em;
+  }
+
+  .sizeMe {
+    font-size: 0.9em;
+  }
+
+  .image,
+  .video {
+    width: 25em;
+  }
+
+  .video {
+    height: 30em;
+    width: 45em;
+  }
+}
